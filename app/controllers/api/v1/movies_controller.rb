@@ -49,7 +49,7 @@ class Api::V1::MoviesController < ApplicationController
     #Methods we place in private can only be accessed by other methods in our movies controller
 
     def set_movie
-        @Movie = Movie.find(params[:id])
+        @movie = Movie.find(params[:id])
     end
 
     def movie_params
